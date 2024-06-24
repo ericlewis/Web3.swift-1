@@ -6,7 +6,7 @@
 //
 
 import Foundation
-@preconcurrency import BigInt
+import BigInt
 
 public struct EthereumQuantity: Sendable {
 

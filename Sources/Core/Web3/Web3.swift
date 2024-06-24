@@ -18,7 +18,7 @@ public struct Web3 {
 
     public let properties: Properties
 
-    public struct Properties {
+    public struct Properties: Sendable {
 
         public let provider: Web3Provider
         public let rpcId: Int
@@ -105,7 +105,7 @@ public struct Web3 {
 
     // MARK: - Eth methods
 
-    public struct Eth {
+    public struct Eth: Sendable {
 
         public enum Error: Swift.Error {
             case providerDoesNotSupportSubscriptions

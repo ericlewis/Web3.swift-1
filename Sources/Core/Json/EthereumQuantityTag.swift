@@ -7,7 +7,7 @@
 
 import Foundation
 import CryptoSwift
-@preconcurrency import BigInt
+import BigInt
 
 public struct EthereumQuantityTag: Sendable {
 

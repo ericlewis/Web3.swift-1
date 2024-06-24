@@ -7,7 +7,7 @@
 
 import Foundation
 
-public protocol Web3Provider {
+public protocol Web3Provider: Sendable {
 
     typealias Web3ResponseCompletion<Result: Codable> = (_ resp: Web3Response<Result>) -> Void
 

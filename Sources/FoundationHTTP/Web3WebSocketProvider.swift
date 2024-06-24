@@ -6,7 +6,7 @@ import FoundationNetworking
 import WebSocketKit
 import NIOPosix
 
-public class Web3WebSocketProvider: Web3Provider, Web3BidirectionalProvider {
+public class Web3WebSocketProvider: Web3Provider, Web3BidirectionalProvider, @unchecked Sendable {
 
     // MARK: - Properties
 
